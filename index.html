@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="index.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="head">
+        My Portfolio
+        </div>
+            <nav class="navi">
+                <span><a href="#about"><i class="fa-solid fa-user "></i> About me</a></span>
+                <span><a href="#Certificate"><i class="fa-solid fa-paperclip"></i> Certificates</a></span>
+                <span><a href="#projects"><i class="fas fa-file-lines"></i> My Projects</a></span>
+                </span><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></span>
+                
+        </nav>
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="intro">
+            <div id="text">
+            <span ><span style="color: rgb(194, 52, 52);">  H</span>o<span style="color: rgb(194, 52, 52);">l</span>a<span style="color: rgb(194, 52, 52);">!</span></span><br><br>
+                </span>I'm a student <br> and <br> a Frontend <span style="color: rgb(194, 52, 52);">Developer</span>.</span>
+            </div>
+            <div id="pro">
+                <br><span><a href="https://www.instagram.com/nafisarehmani/"><i class="fa-brands fa-instagram"></i></a></span>
+                <span><a href="https://github.com/Nafisa-0" target="_self"><i class="fab fa-github"></i></a> </span>
+                <span><a href="http://www.linkedin.com/in/nafisa-rehmani" target="_self"><i class="fab fa-linkedin"></i></a></span>
+                <span><a href="mailto:nafisa.08rehmani@gmail.com"><i class="fa fa-envelope"></i> </a></span>
+            </div>
+            <div id="pic">
+                <img src="08.jpg" class="photo">
+            </div>
+        </div>
+
+        <section id="about" class="hidden">
+            <h2>About Me</h2>
+            <p>Hello, I’m Nafisa Rehmani, a Computer Science and Engineering student with a passion for web development and software engineering. Throughout my academic journey, I have gained hands-on experience in HTML, CSS, JavaScript, React and PHP, along with a solid foundation in algorithms, data structures, and backend technologies. I have successfully completed some projects that highlight my ability to design and implement responsive, user-friendly web applications. I am committed to continuous learning and staying updated with the latest industry trends. I am eager to apply my skills and knowledge to real-world challenges and contribute to innovative web solutions.<br> Let's connect and explore potential opportunities for collaboration!</p>
+            <br>Download my resume here-> <a href="NafisaRESUME.pdf" download><button id="res" style="font-size: medium; font-family: cursive; cursor: pointer;">Resume</button></a>
+        </section>
+
+        <section id="Certificate" class="hidden">
+            <h2>Certificates</h2>      
+            <a href="Advanced Business Decision Support Systems.pdf" target="_self"> Advance Business Decision Support Support System</a>  <br>
+            <a href="The Joy Of Computing Using Python.pdf">Python</a><br>
+            <a href="HTML CSS.pdf"> HTML5 & CSS3</a><br>
+            <a href="Data Analytics with Python.pdf" target="_self">Data Analytics with Python</a><br>
+            <a href="javaScript certificate.pdf" target="_self">JavaScript</a><br>
+            <a href="PHP certificate.pdf" target="_self">PHP</a><br>
+            <a href="ReactJs Certificate.pdf" target="_self">ReactJs</a><br>
+        </section>
+
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Book Store</h3>
+                <p> Tech Stack: HTML, CSS<br>
+                    The project provides learning experience in building a website structure, styling the website and understanding web development fundamentals with a basic online Bookstore website.</p>
+            </div>
+            <div class="project">
+                <h3>Expense tracker</h3>
+                <p>Tech Satck: HTML, CSS, PHP, SQL <br>
+                    Server: XAMPP<br>
+                    The project provides a tool to manage finance. It help users understand their spending habits and make informed financial decisions.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="hidden">
+            <h2>Contact</h2>
+            <form action="thanks.html" method="get">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Send a message to the owner" required></textarea>
+                </div>
+                <button type="submit" onclick="">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p style="font-family: 'Times New Roman', Times, serif;">&copy; Nafisa Rehmani</p>
+        <p><center></center> </p>
+    </footer>
+
+</body>
+</html>
